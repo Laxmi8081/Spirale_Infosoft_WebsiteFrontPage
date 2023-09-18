@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;  
+}
+
+
+.left{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    padding: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+
+.heading{
+    font-size: 31px;
+    font-weight: lighter;
+}
+
+.second{
+    padding: 0px;
+
+}
+
+.third{
+    padding: 50px 0px 0px 20px;
+}
+
+.righttop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    
+}
+
+.rightpart{
+    background-image: url('Images/globe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.item1{
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 0px 5px 3px rgb(212, 209, 209);
+    padding: 20px; 
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img{
+    width: 100px;
+
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 0px 5px 3px rgb(212, 209, 209);
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 3px;
+    align-items: center;    
+}
+
+
+.btn:hover{
+     border: 1px solid cyan;
+     border-radius: 6px;
+     box-shadow: 0px 0px 5px 3px rgb(212, 209, 209);
+
+}
+
+.footer{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    padding: 100px 0px 0px 10px;
+   
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+
